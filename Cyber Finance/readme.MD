@@ -6,7 +6,7 @@
 - Group: [Link](t.me/KeoAirDropFreeNe)
 - Channel: [Link](t.me/KeoAirDropFreeNee)
 
-> Help me with your referral [Link]()
+> Help me with your referral [Link](https://t.me/CyberFinanceBot/game?startapp=cj14MFZoRXhKVzZaZmMmdT1yZWY=)
 
 ## 🚀 Getting Started
 
