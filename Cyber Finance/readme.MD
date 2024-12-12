@@ -55,30 +55,22 @@ This file controls the bot’s behavior. Below is an example configuration:
 
 ```json
 {
-  "timeZone": "en-US",
-  "rotateProxy": false,
-  "skipInvalidProxy": false,
-  "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
-  "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "howManyEggBoost": 1,
+  "howManyHammerBoost": 1,
   "doTasks": true,
-  "playGames": true,
-  "referralCode": ""
+  "delayEachAccount": [5, 8]
 }
 ```
 
 - **Fields Explained:**
-  - `timeZone`: Time zone setting (e.g., "en-US").
-  - `rotateProxy`: Enable or disable proxy rotation.
-  - `skipInvalidProxy`: Skip invalid proxies if `true`.
-  - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
+  - `country_time`: Time zone setting (e.g., "en-US").
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
-  - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
-  - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
+  - `countdown`: Time (in seconds) to restart all accounts.
+  - `limit`: Number of accounts to run simultaneously.
   - `doTasks`: Enable task completion.
-  - `playGames`: Enable game-playing feature.
-  - `referralCode`: Add your referral code (optional). Do not change it if you want to support me ^^
 
 ### 2. `datas.txt` - 🗂️ User Data
 
